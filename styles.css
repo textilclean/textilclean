@@ -1,0 +1,23 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#darkModeToggle,
+.btn {
+  margin-top: 20px;
+  border-radius: 20px; /* Bordes redondeados */
+}
+
+.dark-mode {
+  background-color: #333; /* Fondo oscuro */
+  color: white;
+}
+
+/* Otros estilos... */
